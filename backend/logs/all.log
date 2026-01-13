@@ -1,0 +1,1451 @@
+2026-01-12 16:00:15:015 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-12 16:00:15:015 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-12 16:04:00:40 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-12 16:04:00:40 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-12 16:04:58:458 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-12 16:04:58:458 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-12 16:10:47:1047 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-12 16:10:47:1047 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-12 16:11:18:1118 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-12 16:11:18:1118 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 09:42:05:425 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 09:42:05:425 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 09:44:23:4423 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 09:44:23:4423 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:15:43 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:15:43 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:15:43 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:15:43 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:48:32:4832 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:32:4832 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:18:32 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:48:33:4833 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:33:4833 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:18:33 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:48:34:4834 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:34:4834 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:18:34 +0000] "GET /api/articles?category=sports HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:48:35:4835 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:35:4835 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:18:35 +0000] "GET /api/articles?category=business HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:48:37:4837 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:37:4837 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:18:37 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:51:41:5141 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:51:41:5141 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:21:41 +0000] "GET /api/articles?category=sports HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 09:59:55:5955 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 09:59:55:5955 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:02:33:233 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:33:233 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:32:33 +0000] "GET /api/articles?category=business HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:02:33:233 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:33:233 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:32:33 +0000] "GET /api/articles?category=business HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:02:33:233 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:33:233 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:32:33 +0000] "GET /api/articles?category=sports HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:02:34:234 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:34:234 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:32:34 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:02:36:236 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:36:236 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:32:36 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:02:39:239 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:39:239 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:32:39 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:05:45:545 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:05:45:545 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:35:45 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:05:47:547 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:05:47:547 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:35:47 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:07:45:745 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:07:45:745 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:08:08:88 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:08:88 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:38:08 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:08:08:88 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:08:88 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:38:08 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:08:09:89 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:09:89 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:38:09 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:08:10:810 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "world"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:10:810 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:38:10 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:08:33:833 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:33:833 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:38:33 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:12:24:1224 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:12:24:1224 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:42:24 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:14:04:144 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:14:04:144 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:14:24:1424 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:14:24:1424 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:44:24 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:14:24:1424 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:14:24:1424 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:44:24 +0000] "GET /api/external-news?category=politics HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:14:39:1439 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:14:39:1439 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:44:39 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:14:39:1439 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:14:39:1439 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:44:39 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:14:42:1442 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:14:42:1442 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:44:42 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:14:43:1443 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:14:43:1443 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:44:43 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:16:56:1656 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "world"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:16:56:1656 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:46:56 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:16:56:1656 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:16:56:1656 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:46:56 +0000] "GET /api/external-news?category=world HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:17:49:1749 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:47:49 +0000] "GET /api/articles/mars-colony-foundation HTTP/1.1" 404 29 "-" "node"[39m
+2026-01-13 10:18:21:1821 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:18:21:1821 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:18:58:1858 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:18:58:1858 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:18:58:1858 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:48:58 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m
+2026-01-13 10:19:08:198 [32minfo[39m: [32m::ffff:127.0.0.1 - - [13/Jan/2026:04:49:08 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m
+2026-01-13 10:19:15:1915 [32minfo[39m: [32m::ffff:127.0.0.1 - - [13/Jan/2026:04:49:15 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m
+2026-01-13 10:19:16:1916 [32minfo[39m: [32m::ffff:127.0.0.1 - - [13/Jan/2026:04:49:16 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m
+2026-01-13 10:19:37:1937 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:37:1937 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:37 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:19:37:1937 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:19:37:1937 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:37 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:19:39:1939 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "world"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:39:1939 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:39 +0000] "GET /api/articles?category=world HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:19:39:1939 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:19:39:1939 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:39 +0000] "GET /api/external-news?category=world HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:19:43:1943 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:43:1943 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:43 +0000] "GET /api/articles?category=politics HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:19:43:1943 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:19:43:1943 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:43 +0000] "GET /api/external-news?category=politics HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:19:45:1945 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "business"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:45:1945 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:45 +0000] "GET /api/articles?category=business HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:19:45:1945 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:19:45:1945 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:49:45 +0000] "GET /api/external-news?category=business HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:20:07:207 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:20:07:207 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:50:07 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:20:07:207 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:20:07:207 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:50:07 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:20:09:209 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:20:09:209 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:50:09 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:20:09:209 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:20:09:209 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:50:09 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:20:11:2011 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:20:11:2011 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:50:11 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "node"[39m
+2026-01-13 10:20:11:2011 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:20:11:2011 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:50:11 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:21:44:2144 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:21:44:2144 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:51:44 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462"[39m
+2026-01-13 10:21:51:2151 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:21:51:2151 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:51:51 +0000] "GET /api/articles?category=tech HTTP/1.1" 500 36 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462"[39m
+2026-01-13 10:23:06:236 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:23:06:236 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:23:16:2316 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:53:16 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462"[39m
+2026-01-13 10:23:29:2329 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:23:29:2329 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:53:29 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462"[39m
+2026-01-13 10:25:19:2519 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:55:19 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.7462"[39m
+2026-01-13 10:26:10:2610 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:10 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "node"[39m
+2026-01-13 10:26:10:2610 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:26:10:2610 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:10 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:26:16:2616 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:16 +0000] "GET /api/articles/future-quantum-internet HTTP/1.1" 200 695 "-" "node"[39m
+2026-01-13 10:26:17:2617 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:17 +0000] "GET /api/articles?category=world HTTP/1.1" 200 1401 "-" "node"[39m
+2026-01-13 10:26:17:2617 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:26:17:2617 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:17 +0000] "GET /api/external-news?category=world HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:26:18:2618 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:18 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "node"[39m
+2026-01-13 10:26:19:2619 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:26:19:2619 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:19 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:26:20:2620 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:20 +0000] "GET /api/articles/future-quantum-internet HTTP/1.1" 200 695 "-" "node"[39m
+2026-01-13 10:26:41:2641 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:41 +0000] "GET /api/articles?category=world HTTP/1.1" 200 1401 "-" "node"[39m
+2026-01-13 10:26:41:2641 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:26:41:2641 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:41 +0000] "GET /api/external-news?category=world HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:26:44:2644 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:44 +0000] "GET /api/articles?category=business HTTP/1.1" 200 1403 "-" "node"[39m
+2026-01-13 10:26:44:2644 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:26:44:2644 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:44 +0000] "GET /api/external-news?category=business HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:26:46:2646 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:46 +0000] "GET /api/articles?category=sports HTTP/1.1" 200 1345 "-" "node"[39m
+2026-01-13 10:26:46:2646 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:26:46:2646 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:56:46 +0000] "GET /api/external-news?category=sports HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:28:23:2823 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:28:23:2823 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:28:25:2825 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:58:25 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "node"[39m
+2026-01-13 10:28:25:2825 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:28:25:2825 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:58:25 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:28:26:2826 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:58:26 +0000] "GET /api/articles?category=politics HTTP/1.1" 200 1411 "-" "node"[39m
+2026-01-13 10:28:26:2826 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:28:26:2826 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:58:26 +0000] "GET /api/external-news?category=politics HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:29:36:2936 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:59:36 +0000] "GET /api/articles?category=politics HTTP/1.1" 200 1411 "-" "node"[39m
+2026-01-13 10:29:36:2936 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:29:36:2936 [32minfo[39m: [32m::1 - - [13/Jan/2026:04:59:36 +0000] "GET /api/external-news?category=politics HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:30:00:300 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:30:00:300 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:30:26:3026 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:30:26:3026 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:31:26:3126 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:01:26 +0000] "GET /api/articles?category=politics HTTP/1.1" 200 1411 "-" "node"[39m
+2026-01-13 10:31:26:3126 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:31:26:3126 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:01:26 +0000] "GET /api/external-news?category=politics HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:31:29:3129 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:01:29 +0000] "GET /api/articles?category=world HTTP/1.1" 200 1401 "-" "node"[39m
+2026-01-13 10:31:29:3129 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:31:29:3129 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:01:29 +0000] "GET /api/external-news?category=world HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:33:22:3322 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:33:22:3322 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:33:23:3323 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:34:13:3413 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:34:13:3413 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:34:13:3413 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:35:23:3523 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:05:23 +0000] "GET /api/articles?category=politics HTTP/1.1" 200 1411 "-" "node"[39m
+2026-01-13 10:35:23:3523 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:35:23:3523 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:05:23 +0000] "GET /api/external-news?category=politics HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:35:31:3531 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:05:31 +0000] "GET /api/articles/diplomatic-relations-restored HTTP/1.1" 200 711 "-" "node"[39m
+2026-01-13 10:37:03:373 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:07:03 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "node"[39m
+2026-01-13 10:37:04:374 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:37:04:374 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:07:04 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:37:04:374 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:07:04 +0000] "GET /api/articles?category=tech HTTP/1.1" 200 1423 "-" "node"[39m
+2026-01-13 10:37:04:374 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:37:04:374 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:07:04 +0000] "GET /api/external-news?category=tech HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:37:08:378 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:07:08 +0000] "GET /api/articles/future-quantum-internet HTTP/1.1" 200 695 "-" "node"[39m
+2026-01-13 10:37:22:3722 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:22:3722 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:37:22:3722 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:37:22:3722 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:37:22:3722 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:22:3722 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:22:3722 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:22:3722 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:22:3722 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:23:3723 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:23:3723 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:23:3723 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:23:3723 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:38:3738 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:37:38:3738 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:37:38:3738 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:37:39:3739 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:44:32:4432 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:44:32:4432 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:32:4432 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:44:33:4433 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:46:56:4656 [33mwarn[39m: [33mFIREBASE_SERVICE_ACCOUNT missing. Firebase features will fail.[39m
+2026-01-13 10:46:57:4657 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:46:57:4657 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:46:57:4657 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:47:37:4737 [32minfo[39m: [32mFirebase Admin Initialized[39m
+2026-01-13 10:47:37:4737 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:47:37:4737 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:47:37:4737 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:48:12:4812 [32minfo[39m: [32mFirebase Admin Initialized[39m
+2026-01-13 10:48:13:4813 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:48:13:4813 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:48:13:4813 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:48:15:4815 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:18:15 +0000] "GET /api/articles?category=sports HTTP/1.1" 200 1345 "-" "node"[39m
+2026-01-13 10:48:15:4815 [33mwarn[39m: [33mNEWSDATA_API_KEY is not set[39m
+2026-01-13 10:48:15:4815 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:18:15 +0000] "GET /api/external-news?category=sports HTTP/1.1" 200 2 "-" "node"[39m
+2026-01-13 10:48:17:4817 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:18:17 +0000] "GET /api/articles/underdog-marathon-gold HTTP/1.1" 200 660 "-" "node"[39m
+2026-01-13 10:49:00:490 [32minfo[39m: [32mFirebase Admin Initialized[39m
+2026-01-13 10:49:00:490 [32minfo[39m: [32m🚀 Server running on port 4000[39m
+2026-01-13 10:49:00:490 [32minfo[39m: [32mws://localhost:4000 ready for connections[39m
+2026-01-13 10:49:00:490 [32minfo[39m: [32mNews Cron Scheduler started: Running every 30 minutes.[39m
+2026-01-13 10:49:34:4934 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:19:34 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m
+2026-01-13 10:54:53:5453 [32minfo[39m: [32mNew user created via Google: ansh91627@gmail.com[39m
+2026-01-13 10:54:53:5453 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:24:53 +0000] "POST /api/auth/google HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m
+2026-01-13 10:55:08:558 [32minfo[39m: [32mUser logged in via Google: ansh91627@gmail.com[39m
+2026-01-13 10:55:08:558 [32minfo[39m: [32m::1 - - [13/Jan/2026:05:25:08 +0000] "POST /api/auth/google HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"[39m

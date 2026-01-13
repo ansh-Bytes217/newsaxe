@@ -1,0 +1,1242 @@
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:45:43:4543 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:32:4832 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:33:4833 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:34:4834 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:35:4835 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:48:37:4837 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 09:51:41:5141 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:33:233 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:33:233 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:33:233 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:34:234 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:36:236 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:02:39:239 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:05:45:545 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:05:47:547 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany([39m
+[31merror: Environment variable not found: DATABASE_URL.[39m
+[31m  -->  schema.prisma:7[39m
+[31m   | [39m
+[31m 6 |   provider = "postgresql"[39m
+[31m 7 |   url      = env("DATABASE_URL")[39m
+[31m   | [39m
+
+[31mValidation Error Count: 1[39m
+2026-01-13 10:08:08:88 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:08:88 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:09:89 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:10:810 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "world"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:08:33:833 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:12:24:1224 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:14:24:1424 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:14:39:1439 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:14:42:1442 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:16:56:1656 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "world"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:37:1937 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:39:1939 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "world"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:43:1943 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "politics"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:19:45:1945 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "business"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:20:07:207 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:20:09:209 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:20:11:2011 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
+2026-01-13 10:21:51:2151 [31merror[39m: [31m[39m
+[31mInvalid `prisma.article.findMany()` invocation in[39m
+[31mC:\Users\Ansh\NewsAXE\backend\src\controllers\articleController.ts:18:47[39m
+
+[31m  15 [39m
+[31m  16 export const getArticles = async (req: Request, res: Response): Promise<void> => {[39m
+[31m  17     try {[39m
+[31m→ 18         const articles = await prisma.article.findMany({[39m
+[31m               where: {[39m
+[31m                 published: true,[39m
+[31m                 category: {[39m
+[31m                   slug: "tech"[39m
+[31m                 }[39m
+[31m               },[39m
+[31m               include: {[39m
+[31m                 author: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     role: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 category: {[39m
+[31m                   select: {[39m
+[31m                     name: true,[39m
+[31m                     slug: true[39m
+[31m                   }[39m
+[31m                 },[39m
+[31m                 tags: true[39m
+[31m               },[39m
+[31m               orderBy: {[39m
+[31m                 createdAt: "desc",[39m
+[31m                 ~~~~~~~~~[39m
+[31m             ?   id?: SortOrder,[39m
+[31m             ?   title?: SortOrder,[39m
+[31m             ?   slug?: SortOrder,[39m
+[31m             ?   subtitle?: SortOrder | SortOrderInput,[39m
+[31m             ?   content?: SortOrder,[39m
+[31m             ?   imageUrl?: SortOrder | SortOrderInput,[39m
+[31m             ?   published?: SortOrder,[39m
+[31m             ?   authorId?: SortOrder,[39m
+[31m             ?   categoryId?: SortOrder,[39m
+[31m             ?   views?: SortOrder,[39m
+[31m             ?   readTime?: SortOrder | SortOrderInput,[39m
+[31m             ?   summary?: SortOrder | SortOrderInput,[39m
+[31m             ?   updatedAt?: SortOrder,[39m
+[31m             ?   author?: UserOrderByWithRelationInput,[39m
+[31m             ?   category?: CategoryOrderByWithRelationInput,[39m
+[31m             ?   tags?: TagOrderByRelationAggregateInput[39m
+[31m               },[39m
+[31m               take: 20[39m
+[31m             })[39m
+
+[31mUnknown argument `createdAt`. Did you mean `updatedAt`? Available options are marked with ?.[39m
