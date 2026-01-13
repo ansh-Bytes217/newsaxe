@@ -26,7 +26,8 @@ type Article = {
 
 async function getArticle(slug: string): Promise<Article | null> {
     try {
-        const res = await fetch(`http://localhost:4000/api/articles/${slug}`, {
+        const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+        const res = await fetch(`${API_URL}/api/articles/${slug}`, {
             cache: 'no-store', // Ensure fresh data for now
             next: { revalidate: 60 } // Incremental Static Regeneration (ISR)
         });

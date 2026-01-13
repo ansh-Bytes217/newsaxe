@@ -24,15 +24,16 @@ interface Article {
 }
 
 async function getCategoryArticles(slug: string): Promise<Article[]> {
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
     try {
         // Fetch from our local DB
-        const localRes = await fetch(`http://localhost:4000/api/articles?category=${slug}`, {
+        const localRes = await fetch(`${API_URL}/api/articles?category=${slug}`, {
             next: { revalidate: 60 },
         });
         const localArticles = localRes.ok ? await localRes.json() : [];
 
         // Fetch from External API
-        const externalRes = await fetch(`http://localhost:4000/api/external-news?category=${slug}`, {
+        const externalRes = await fetch(`${API_URL}/api/external-news?category=${slug}`, {
             next: { revalidate: 300 }, // 5 mins for external
         });
         const externalArticles = externalRes.ok ? await externalRes.json() : [];
